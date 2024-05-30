@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass+Mono:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Stylish&family=Syne:wght@400..800&family=Ultra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "overpass mono", monospace;
+}
+
+
+.ride{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/mini-vault/blingbling2.0/resources/ride.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'space mono', monospace;
+    color: #2a3773;
+}
+
+h3{
+    color: #db3945;
+}
+
+header, main{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+
+button{
+    background-color: #2a3773;
+    color: #fef1ea;
+    font-weight: bolder;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #db3945;
+}
+
+.stop1{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/mini-vault/blingbling2.0/resources/stopone.GIF');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.stop2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/mini-vault/blingbling2.0/resources/phhol4fool.GIF');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .joke{
+     display: none;
+} */
+
+/* .next-btn{
+    display: none;
+} */
+
+p{
+    font-weight: bold;
+    color: #db3945;
+    margin-bottom: 25px;
+}
+
+
+.disabled-btn{
+    background-color: #fadad0;
+    color: gray;
+}
+
+.disabled-btn:hover{
+    background-color: #fadad0;
+    color: gray;
+    cursor: not-allowed;
+}
+
+a{
+    text-decoration: none;
+    background-color: #2a3773;
+    color: #fef1ea;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: #db3945;
+}
