@@ -13,7 +13,7 @@
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('/mini-vault/blingbling2.0/resources/ride.gif');
+    background-image: url('resources/ride.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,7 +56,7 @@ button:hover{
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('/mini-vault/blingbling2.0/resources/stopone.GIF');
+    background-image: url('resources/stopone.GIF');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,7 +70,7 @@ button:hover{
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-image: url('/mini-vault/blingbling2.0/resources/phhol4fool.GIF');
+    background-image: url('resources/phhol4fool.GIF');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
